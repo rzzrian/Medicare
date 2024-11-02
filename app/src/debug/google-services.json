@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "878395905393",
+    "project_id": "medicare-cb796",
+    "storage_bucket": "medicare-cb796.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878395905393:android:392b734df9ea11ea5592d0",
+        "android_client_info": {
+          "package_name": "com.example.medicare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIKus6unRTDHo8nIYpFU-lVfddAdWfrZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

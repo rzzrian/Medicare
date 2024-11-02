@@ -1,0 +1,138 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F3F3F2">
+
+    <ImageButton
+        android:id="@+id/btnProfile"
+        android:layout_width="53dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:background="?attr/selectableItemBackground"
+        android:scaleType="fitCenter"
+        android:src="@drawable/asset28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/btnMenu"
+        android:layout_width="54dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:background="?attr/selectableItemBackground"
+        android:scaleType="fitCenter"
+        android:src="@drawable/asset30"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+    <!-- Menu Button -->
+
+    <ImageButton
+        android:id="@+id/btnlogo"
+        android:layout_width="378dp"
+        android:layout_height="258dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="64dp"
+        android:background="?attr/selectableItemBackground"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/btnRian"
+        android:layout_width="371dp"
+        android:layout_height="195dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="240dp"
+        android:background="?attr/selectableItemBackground"
+        android:scaleType="fitCenter"
+        android:src="@drawable/rian"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/btnReja"
+        android:layout_width="373dp"
+        android:layout_height="194dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="400dp"
+        android:background="?attr/selectableItemBackground"
+        android:scaleType="fitCenter"
+        android:src="@drawable/reja"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/bgnav"
+        android:layout_width="412dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/asset31"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/homeButton"
+        android:layout_width="65dp"
+        android:layout_height="68dp"
+        android:background="?attr/selectableItemBackground"
+        android:padding="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- News Button -->
+    <ImageButton
+        android:id="@+id/newsButton"
+        android:layout_width="65dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="40dp"
+        android:background="?attr/selectableItemBackground"
+        android:padding="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_news"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/homeButton" />
+
+    <!-- Chat Button -->
+    <ImageButton
+        android:id="@+id/chatButton"
+        android:layout_width="65dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="40dp"
+        android:background="?attr/selectableItemBackground"
+        android:padding="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_chat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/newsButton" />
+
+    <!-- Profile Button -->
+    <ImageButton
+        android:id="@+id/profileButton"
+        android:layout_width="65dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="4dp"
+        android:background="?attr/selectableItemBackground"
+        android:padding="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

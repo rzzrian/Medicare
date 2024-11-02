@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">UTS</string>
+    <string name="buat_akun_disini">Buat Akun Disini</string>
+    <string name="belum_memiliki_akun">Belum memiliki akun?</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="masuk">Welcome to the Medicare Application, to use this application you can log in first</string>
+    <string name="sign_in">Sign In</string>
+    <string name="reservasi">Make it easier for patients to make appointment reservations, so they can plan their visits better and avoid long waiting times.</string>
+    <string name="email_address">Email Address</string>
+    <string name="already_have_an_account">Already Have an Account?</string>
+    <string name="login">Login</string>
+    <string name="create_your_account">Create Your Account</string>
+    <string name="welcome"><![CDATA[Welcome to Medicare, your loyal companion on the journey to health. Sign up, and let us weave together steps toward a healthier and more meaningful life.]]></string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="suhu">You can see what health checks are available at the hospital through Medicare, easily and efficiently.</string>
+    <string name="let_s_live_a_healthy_life">Let\'s Live a Healthy Life</string>
+    <string name="developer">Developer</string>
+    <string name="consultation">Consultation</string>
+    <string name="news">Doctor</string>
+    <string name="reservation">Reservation</string>
+    <string name="about">About</string>
+    \
+    <string name="udahpunyakun">Already have an account? Login</string>
+    <string name="still_without_account_create_one">Still Without Account? Create One!</string>
+    <string name="memudahkan_pasien_dalam_mengecek_jadwal_dokter_sehingga_mereka_dapat_merencanakan_kunjungan_dengan_lebih_baik_dan_menghindari_waktu_tunggu_yang_lama">Memudahkan pasien dalam mengecek jadwal dokter, sehingga mereka dapat merencanakan kunjungan dengan lebih baik dan menghindari waktu tunggu yang lama.</string>
+    <string name="jadwal_dokter">JADWAL DOKTER</string>
+    <string name="welcome_message">Welcome</string>
+    <string name="let_s_live_a_healthy_live">Let\'s Live A Healthy Live</string>
+    <string name="onlineconsult">Makes it easier for patients to consult with a doctor if it is not possible to go to the hospital, with doctors who are available 24 hours via chat or telephone.</string>
+    <string name="reserf">Make it easier for patients to make appointment reservations, so they can plan their visits better and avoid long waiting times.</string>
+    <string name="emergency">Emergency\n</string>
+</resources>
